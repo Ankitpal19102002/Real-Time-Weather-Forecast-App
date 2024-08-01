@@ -1,0 +1,193 @@
+html {
+    height: 100%;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(to bottom, #6ec8ff, #b9f0fa);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: #ffffff;
+    color: #000000;
+    margin: 100px auto 0;
+    border-radius: 25px;
+    padding: 40px 35px;
+    text-align: center;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #29434e;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background-color: #e5e5e5;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #e5e5e5;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+
+button:hover {
+    color: #ffffff;
+    background-color: #29434e;
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+}
+
+.weather-icon {
+    width: 200px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 15px;
+}
+
+.col-icon span {
+    font-size: 50px;
+}
+
+.col>div>p {
+    margin: 5px 0px;
+}
+
+.humidity,
+.wind {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.error {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    display: none;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    background-color: #efefef;
+    padding: 2px;
+    border: 1px solid #29434e;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    width: 350px;
+    height: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0px auto 10px auto;
+    font-weight: 500;
+    font-size: 0;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/*# sourceMappingURL=index.css.map */
+
+/* material icon styles */
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
